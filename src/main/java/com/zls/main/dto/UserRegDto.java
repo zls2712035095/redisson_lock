@@ -1,14 +1,9 @@
-package com.weikun.main.dto;
+package com.zls.main.dto;
 
 import lombok.*;
 
 import java.io.Serializable;
 
-/**
- * 创建人：Jason
- * 创建时间：2021/10/26
- * 描述你的类：
- */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

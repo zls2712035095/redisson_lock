@@ -1,4 +1,4 @@
-package com.weikun.main.config;
+package com.zls.main.config;
 
 import org.redisson.Redisson;
 import org.redisson.api.RedissonClient;
@@ -8,11 +8,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.env.Environment;
 
-/**
- * 创建人：Jason
- * 创建时间：2020/3/15
- * 描述你的类：Redisson相关组件自定义注入
- */
+
 @Configuration
 public class RedissonConf {
     //读取环境变量的实例env
